@@ -1,11 +1,14 @@
 body{
     background-color:#C8EBFF;
     margin: 0;
-    padding: 0 10%;
 }
+        /* Start Header section  */
 
         /* stat navigation */
 
+.header{
+    padding: 0 10%;
+}
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -88,10 +91,15 @@ body{
 }
 
          /* end first-look */
-        /* start products section */
+
+          /* End Header section  */
+
+
+         /* start products section */
 
 .product-sec{
     margin: 10% 0;
+    padding: 0 10%;
 }
 .pro-title{
     color: #000;
@@ -100,13 +108,14 @@ body{
     font-size: 50px;
     font-weight: 700;
     line-height: 1;
-    text-align: center;;
+    text-align: center;
 }
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 25px;
     padding-left: 30px;
+    margin-top: 8%;
 }
 .product{
     height: 450px;
@@ -163,12 +172,129 @@ body{
     line-height: 1.1;
     text-transform: capitalize;
 }
+.pro-more{
+    color:#313639;
+    font-family:"Playfair Display",serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.1;
+    text-align: right;
+    padding: 50px 30px 0px 0px;
+    margin: 0;
+}
+.pro-more i{
+    padding-left: 10px;
+}
 
-     /* end products section */
+
+      /* end products section */
+
+      /* start offer news section */
 
 
+.offer-news{
+    height: 400px;
+    width: 1187px;
+    background-color: #DFF1FF;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-left: 6%;
+}
+.subscribe{
+    display: flex;
+}
+.text{
+    margin-left:10%;
+    margin-top: 8%;
+}
+.text h1{
+    color: #1f2022;
+    font-family: "Playfair Display",serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.text p{
+    color:#313639;
+    font-family: "Playfair Display",serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.button form{
+    position: relative;
+}
+.button input{
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    color: #313639;
+    font-family: "Playfair Display",serif;
+    font-size: 20px;
+    margin-top: 19%;
+    margin-right: 60px;
+}
+.button button{
+    background-color: #2577fd;
+    font-family: "Playfair Display",serif;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 19px 30px;
+    border-radius: 30px;
+    border: 0;
+    letter-spacing: 1px;
+    position: absolute;
+    margin-left: -153px;
+    margin-right: ;
+    margin-left: -211px;
+    margin-top: 91px;
+}
 
+      /* end offer news section */
 
+      /* start footer section */
 
+.footer{
+    height: 200px;
+    background-color: #ECEAF6;
+    margin: 0;
+    padding: 0px;
+}
+.footer-info{
+   text-align: center;
+   padding-top: 2%;
+}
+.footer-info h2{
+    color: #000;
+    font-family:"Playfair Display",serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;;
+}
+.footer-info p{
+    color:#313639;
+    font-family: "Playfair Display",serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.footer-info a{
+    padding:5px
+}
 
-
+      /* end footer section */

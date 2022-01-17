@@ -319,14 +319,7 @@ body{
         margin-left: 5%;
     }
     .first-des h1{
-        color: #1f2022;
-        font-family: "Playfair Display",serif;
-        text-transform: uppercase;
         font-size: 50px;
-        font-weight: 700;
-        line-height: 1.1;
-        text-transform: capitalize;
-        margin-bottom: 13px;
      }
     .first-des button{
         padding: 10px 20px;
@@ -376,11 +369,66 @@ body{
         margin-top: 5%;
     }
 
-
 }
 
+   /* tablet devices */
 
 
-
-
-
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .header{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+    .navigation{
+        margin: 2% 5%;
+    }
+    .first-look{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .first-des{
+        padding-left: 10%;
+        padding-top: 105;
+    }
+    .first-des h1{
+        font-size: 50px;
+     }
+    .product-sec{
+        padding: 0;
+    }
+    .offer-news{
+        width: 100%;
+    }
+    .products, .subscribe{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .offer-news{
+        width:100%;
+        margin: 0;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    .text{
+       padding-top: 18%;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size:20px;
+    }
+    .button input{
+        margin-right: 0px;
+        height: 50px;
+        width: 350px;
+        margin-left: -35px;
+    }
+    .button button{
+        font-size: 13px;
+        padding: 18px 29px;
+        margin-left: -127px;
+        margin-top: 63px;
+    }
+  
